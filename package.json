@@ -1,0 +1,23 @@
+{
+  "name": "sayonarabm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/sass ./scss/app.scss ./css/style.css",
+    "minify": "./node_modules/.bin/sass ./scss/app.scss ./css/style.css --style compressed",
+    "watch": "./node_modules/.bin/sass --watch ./scss/app.scss:./css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophbercearott/SayonaraBM.git"
+  },
+  "author": "Christoph Bercea-Rott",
+  "license": "ISC",
+  "sass": "^1.26.10",
+  "bugs": {
+    "url": "https://github.com/christophbercearott/SayonaraBM/issues"
+  },
+  "homepage": "https://github.com/christophbercearott/SayonaraBM#readme"
+}
