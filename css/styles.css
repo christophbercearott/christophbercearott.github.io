@@ -4561,7 +4561,7 @@ input[type='button'].btn-block {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: rgb(3, 2, 2);
+  background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 
@@ -8369,7 +8369,6 @@ button.bg-dark:focus {
   right: 0;
   left: 0;
   z-index: 1030;
-
 }
 
 .fixed-bottom {
@@ -11210,7 +11209,7 @@ header.masthead h1 {
   color: #fff;
   background: #3398ac;
   transition: opacity 0.25s ease;
-  text-align: center;
+  text-align: auto;
 }
 
 #portfolio
