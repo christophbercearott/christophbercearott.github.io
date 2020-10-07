@@ -7034,8 +7034,11 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
-  background-color: #3398ac !important;
+@media {
+  .bg-primary {
+    background-color: #3398ac !important;
+
+  }
 }
 
 a.bg-primary:hover,
@@ -7112,7 +7115,12 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-image: url(/assets/img/bg-masthead-backup.jpg) !important;
+  width: 812px;
+  height: 312px;
+  margin: auto;
+
+
 }
 
 a.bg-dark:hover,
@@ -8427,7 +8435,7 @@ button.bg-dark:focus {
 }
 
 .h-100 {
-  height: 100% !important;
+  height: 130% !important;
 }
 
 .h-auto {
@@ -11107,7 +11115,7 @@ header.masthead {
   background: linear-gradient(to bottom,
       rgba(92, 77, 66, 0.8) 0%,
       rgba(92, 77, 66, 0.8) 100%),
-    url('../assets/img/bg-masthead.jpg');
+    url('/assets/img/bg-masthead-backup.gif');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
