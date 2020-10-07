@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/christophbercearott/SayonaraBM/issues"
   },
-  "homepage": "https://github.com/christophbercearott/SayonaraBM#readme"
+  "homepage": "https://github.com/christophbercearott/SayonaraBM#readme",
+  "dependencies": {
+    "firebase": "^7.22.1"
+  }
 }
